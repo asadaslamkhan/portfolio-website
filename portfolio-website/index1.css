@@ -1,0 +1,279 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: whitesmoke;
+}
+
+
+p::first-line{
+    color: red;
+
+}
+
+
+.heading{
+    color: darkred;
+    padding: 30px;
+    margin-left: 4%;
+    text-align: center;
+    font-size: 25px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-bottom: 20px;
+}
+.main{
+    background-color: #141d28;
+    height: 60px;
+    width: 100%;
+    
+}
+.port{
+    color: grey;
+    text-align: center;
+    font-weight: 700;
+    margin-bottom: 5%;
+}
+
+
+.navbar{
+    width: 1200px;
+    height: 75px;
+    margin: auto;
+}
+
+.icon{
+    width: 200px;
+    float: left;
+    height: 70px;
+}
+.logo{
+    color: #e9e9e9;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 24px;
+    display: flex;
+}
+.logo span{
+    color: #0073ff;
+}
+.menu{
+    width: 400px;
+    float: left;
+    height: 70px;
+}
+ ul{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 100%;
+}
+
+ul li{
+    list-style: none;
+    margin-left: 62px;
+    margin-top: 27px;
+    font-size: 14px;
+}
+
+ul li a{
+    text-decoration: none;
+    color: white;
+    font-family: Arial;
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+}
+
+ul li a:hover{
+    color: #0073ff;
+    box-shadow:0px 1px #0073ff;
+} 
+
+.boot{
+    background-color: lightgray;
+}  
+
+
+
+
+
+.container {
+    min-height: 60vh;
+    padding: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    width: 90%;
+    margin : 60px;
+}
+
+.container img{
+    height: 300px;
+    width: 350px;
+    border-radius: 2%;
+    
+}
+.container p{
+    color: lightgray;
+    text-align: center;
+    margin: 80px;
+}
+
+.card-container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 50px;
+    background-color: #24262b;
+    height: 40%;
+
+}
+.card{
+    width: 325px;
+    background-color: rgba(0,0, 0, 0.2);
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0px 2px 4px rgba(99, 97, 101, 0.493);
+    margin: 20px;
+}
+
+.card img{
+    width: 100%;
+    height: auto;
+}
+.card-content{
+    padding: 16px;
+}
+
+.card-content h3{
+    font-size: 28px;
+    margin-bottom: 16px;
+    color: #ff7200;
+}
+.card-content p{
+    color:white;
+    font-size: 15px;
+    line-height: 1.3;
+}
+.card-content .btn2{
+        display: inline-block;
+        background-color: #0073ff;
+        text-decoration: none;
+        margin-top: 16px;
+        border-radius: 4px;
+        padding: 8px 16px;
+        color: black;
+
+
+ 
+    }
+
+    .card:hover{
+        background-color: lightgray;
+        color:black;
+        cursor: pointer;
+        transform: scale(1.03);
+        transition: all 1s ease;
+
+
+   
+    }
+
+    
+    .btn2:hover{
+        background: darkgrey;
+        color: black;
+      
+
+    }
+
+
+
+.par {
+    font-size: 22px;
+    font: optional;
+    padding-left: 2%;
+    color: black;
+    margin-top: 30px;
+    text-align: center;
+
+
+}
+
+.btn{
+    width: 110px;
+    height: 30px;
+    background:red;
+    border: none;
+    margin-top: 45px;
+    margin-left: 47%;
+    color: #fff;
+    font-size: 15px;
+    border-radius: 10px;
+    cursor: pointer;
+    color: #fff;
+    transition: 0.4 ease;
+    text-align: center;
+
+}
+.btn:focus{
+    outline: none;
+}
+
+.btn a{
+    text-decoration: none;
+    color:white;
+    font-weight: bolds;
+    text-align: center;
+}
+.btn:hover{
+    background: black;
+    color: black;
+}
+
+.media{
+    min-height: 70vh;
+}
+
+.img{
+    padding: 30px;
+    height: 320px;
+    width: 300px;
+    padding-left: 40px;
+    margin: 12px;
+    border-radius: 20px;
+    
+}
+
+iframe{
+    padding:30px ;
+    height:320px;
+    width:300px ;
+    padding-left:40px ; 
+    margin: 12px;
+     
+}
+
+footer{
+    background-color: #24262b;
+    overflow: hidden;
+}
+
+footer a {
+    text-decoration: none;
+    padding: 10px;
+    text-align: center;
+    float: right;
+    color: white;
+
+
+}
+
+
+
+
+ 
